@@ -11,8 +11,11 @@ void MainMenu(int x) {
 
 void Register(string u, string p) {
 cout << "Welcome! Please enter your credentials which you would like to use in future!" << endl;
-cin >> u;
+cout << "Type your username here: " << endl;
+cin >> ws;
+getline(cin, u);
 userName = u;
+cout << "Type your password here: " << endl;
 cin >> p;
 passWord = p;
 cout << "Succesful registration!" << endl;
@@ -21,7 +24,8 @@ cout << "Succesful registration!" << endl;
 void Login(string a, string b) {
 cout << "Please enter your login credentials!" << endl;
 cout << "Enter your username - ";
-cin >> a;
+cin >> ws;
+getline(cin, a);
 cout << endl;
 cout << "Enter your password - ";
 cin >> b; cout << endl;
@@ -61,7 +65,7 @@ else if (Choice == 2) {
 }
 
 else if (Choice == 3) {
-    exit;
+    return EXIT_SUCCESS;
 }
 
 return 0; }
