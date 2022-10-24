@@ -1,3 +1,7 @@
+// Arsenije Karamarković, University of Novi Sad
+// This is one of the first projects I have ever written by myself using standalone computer language. It is a simple console application which lets you create your own account or log into one. 
+// The syntax and formatting are not as near as handsome and beautiful, but I still love to look back couple years behind me, just to see how much progress I have ever since.
+// 24.10.2022. Thank you for reading!
 #include <bits/stdc++.h>
 using namespace std;
 string Choice2,userName, passWord, userNameRegister, passWordRegister, usernameLogin, passwordLogin, admin = "arsenije", password = "password";
