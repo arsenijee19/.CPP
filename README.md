@@ -1,6 +1,6 @@
 # C++ Projects
 
-Practicing and experimenting with new algorithms using C++ environment.
+Constantly working on new experiences with C++ language.
 
 - Templates
 - Codes
